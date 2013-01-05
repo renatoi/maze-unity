@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E4845F88-F02A-30E8-7BD7-0DE340F4501B}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;UNITY_STANDALONE_WIN;ENABLE_PROFILER;UNITY_EDITOR</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\UltimateFPSCamera\Demo\Editor\vp_FPSDemo2Editor.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Demo\Editor\vp_FPSDemoEditor.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_ComponentPersister.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_EditorGUIUtility.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_FPSCameraEditor.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_FPSControllerEditor.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_FPSShooterEditor.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_FPSWeaponEditor.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_FileDialog.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_MessageBox.cs" />
+     <Compile Include="Assets\UltimateFPSCamera\Editor\vp_PresetEditorGUIUtility.cs" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\WeaponPistolZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Shooter\ShooterMachinegunZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SystemOFFShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Controller\ControllerCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponRevolverCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ArtilleryController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponMachinegun.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\CowboyWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernCameraZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PerspOldWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MafiaCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Controller\ControllerFreeze.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\StompingCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernWeaponCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MouseRawUnityCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\CowboyCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SystemOFFWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ControllerCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponRevolverRun.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponRevolverZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MafiaShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponPistolReload2.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Camera\CameraReload.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SmackController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Camera\CameraFreeze.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\WallFacingWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\Persp1999Weapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\FreezeController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\CowboyController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponMachinegunCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Camera\CameraDefault.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponPistolZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\Persp1999Camera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Shooter\ShooterRevolverZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponRevolverReload.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MouseSmoothingCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Controller\ControllerRun.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Camera\CameraCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\WallFacingCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PivotMuzzleWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\DefaultCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\DefaultWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Shooter\ShooterMachinegun.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Shooter\ShooterPistolZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\OldSchoolCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Controller\ControllerZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponPistol.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\DrunkWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponRevolver.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ImmobileCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MaceCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ImmobileController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MechController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\DrunkController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Shooter\ShooterPistol.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\DrunkCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponMachinegunReload.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ArtilleryCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponPistolCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MechWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernCameraCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\DefaultController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\CowboyShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MouseLowSensWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MafiaWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SystemOFFController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\OldSchoolWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ImmobileWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponMachinegunRun.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\TurretWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MaceWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\AstronautCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MechWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MouseLowSensCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponMachinegunZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponPistolReload.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Shooter\ShooterRevolver.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PivotChestWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\WeaponPistolCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Camera\CameraRun.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Camera\CameraZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SystemOFFWeaponGlideIn.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SniperWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SystemOFFCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PerspOldCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MafiaWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\OldSchoolShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MechShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\TurretCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\CowboyWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PivotElbowWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MafiaCameraCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernWeaponZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MafiaShooterZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PerspModernWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Weapon\WeaponPistolRun.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PerspModernCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernControllerZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\ModernShooterZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MechCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\CowboyShooterZoom.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\OldSchoolController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SniperCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MouseRawUnityWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MafiaWeaponCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\AstronautController.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\TurretShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\SniperShooter.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\CowboyWeaponCrouch.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\FreezeCamera.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\MouseSmoothingWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\PivotWristWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Demo\Presets\AstronautWeapon.txt" />
+     <None Include="Assets\UltimateFPSCamera\Presets\Controller\ControllerDefault.txt" />
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{F01B5E8B-A861-567A-6356-A85489D39DBB}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
